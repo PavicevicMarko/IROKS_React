@@ -53,8 +53,9 @@ let igralec3 : Igralec = {
 
 let ekipa = new Ekipa(direktor, trener, 'abc', 1999); 
 ekipa.dodajIgralca(igralec1);
-console.log(ekipa);
 ekipa.dodajIgralca(igralec2);
-console.log(ekipa);
 ekipa.dodajIgralca(igralec3);
-console.log(ekipa);
+
+ekipa.izpisiPodatke();
+
+

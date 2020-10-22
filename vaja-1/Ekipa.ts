@@ -10,7 +10,12 @@ class Ekipa {
 	dodajIgralca = (igralec : Igralec) =>{
 		this.igralci.push(igralec);
 	}
-	
+
+	izpisiPodatke() : string{
+		let izpis = Ekipa.toString;
+		return izpis;
+	}
+
  constructor(direktor: Funkcionar, trener: Funkcionar ,ime: string, letoUstanovitve: number){
 	this.direktor = direktor;
 	this.trener= trener;
