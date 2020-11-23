@@ -2,7 +2,7 @@
   "name": "vaja_1",
   "version": "1.0.0",
   "description": "vaja 1 IROKS",
-  "main": "main",
+  "main": "main.ts",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

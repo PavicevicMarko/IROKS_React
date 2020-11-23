@@ -12,7 +12,12 @@ class Ekipa {
 	}
 
 	izpisiPodatke() : string{
-		let izpis = Ekipa.toString;
+		let izpis : string  = ("Ime: " + this.ime.toString + "\n" +
+					"Direktor: " + this.direktor.toString + "\n" +
+					"Trener: " + this.trener.toString +  "\n" + 
+					"Leto ustanovitve: " + this.letoUstanovitve.toString + "\n" +
+					"Igralci : " + this.igralci.toString) as string;
+
 		return izpis;
 	}
 
